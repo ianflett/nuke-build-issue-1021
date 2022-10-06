@@ -1,0 +1,14 @@
+[*.cs]
+dotnet_style_qualification_for_field = false:warning
+dotnet_style_qualification_for_property = false:warning
+dotnet_style_qualification_for_method = false:warning
+dotnet_style_qualification_for_event = false:warning
+dotnet_style_require_accessibility_modifiers = never:warning
+
+csharp_style_expression_bodied_methods = true:silent
+csharp_style_expression_bodied_properties = true:warning
+csharp_style_expression_bodied_indexers = true:warning
+csharp_style_expression_bodied_accessors = true:warning
+
+dotnet_naming_rule.other_public_protected_fields_disallowed_rule.severity   = silent
+dotnet_naming_rule.stylecop_private_fields_must_be_camel_case_rule.severity = silent

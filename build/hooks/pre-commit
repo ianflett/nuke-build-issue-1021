@@ -1,0 +1,3 @@
+#!/bin/sh
+git stash save --quiet --keep-index --include-untracked
+./build.cmd Compile
